@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>IYA LO LOGRE PERRAS!</title>
+<title>Formulario de respuesta</title>
 </head>
 <body>
-	<h1>Primer ejemplo de mvc con spring</h1>
 	
-	<a href="muestraFormulario">Ir al formulario del curso</a>
+Hola ${param.nombreAlumno} .Bienvenido al curso de Spring 	
+	
 </body>
 </html>

@@ -4,11 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>IYA LO LOGRE PERRAS!</title>
+<title>Formulario Alumnos</title>
 </head>
 <body>
-	<h1>Primer ejemplo de mvc con spring</h1>
-	
-	<a href="muestraFormulario">Ir al formulario del curso</a>
+
+	<form action="procesarFormulario" method="get">
+		<input type="text" name="nombreAlumno">
+		<input type="submit" name="enviar">
+	</form>
+ 
 </body>
 </html>
