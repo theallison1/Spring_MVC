@@ -10,26 +10,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HolaAlumnosControlador {
 
 	@RequestMapping("/muestraFormulario")
-	public String  muestraFormulario() {
-		
+	public String muestraFormulario() {
+
 		return "HolaAlumnosFormularios";
 	}
-	
+
 	@RequestMapping("/procesarFormulario")
 	public String procesarFormulario() {
-		
+
 		return "HolaAlumnosSpring";
 	}
-	
+
 	@RequestMapping("/procesarFormulario2")
-	public String otroProcesoFormulario(HttpServletRequest request ,Model modelo) {
-		
+	public String otroProcesoFormulario(HttpServletRequest request, Model modelo) {
+
 		String nombre = request.getParameter("nombreAlumno");
-		nombre+=" es el mejor alumno";
-		String mensajeFinal= "Quien es el mejor alumno?\n" +nombre;
-		
-		//insertar datos al modelo
-		modelo.addAttribute("mensajeClaro",mensajeFinal);
+		nombre += " es el mejor alumno";
+
+		String mensajeFinal = "Quien es el mejor alumno?\n" + nombre;
+
+		// insertar datos al modelo
+		modelo.addAttribute("mensajeClaro", mensajeFinal);
+
 		return "HolaAlumnosSpring";
 	}
 }
