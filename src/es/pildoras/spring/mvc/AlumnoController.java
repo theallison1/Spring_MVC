@@ -15,5 +15,6 @@ public class AlumnoController {
 		modelo.addAttribute("elAlumno",elAlumno);
 		
 		return "alumnoRegistroFormulario";
+		
 	}
 }
