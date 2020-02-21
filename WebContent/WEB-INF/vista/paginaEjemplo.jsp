@@ -9,6 +9,6 @@
 <body>
 	<h1>Primer ejemplo de mvc con spring</h1>
 	
-	<a href="muestraFormulario">Ir al formulario del curso</a>
+	<a href="secundario/muestraFormulario">Ir al formulario del curso</a>
 </body>
 </html>
