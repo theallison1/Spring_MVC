@@ -22,22 +22,29 @@ public class Alumnos {
 	public void setOptativa(String optativa) {
 		this.optativa = optativa;
 	}
+
+	public String getIdiomasAlumnos() {
+		return IdiomasAlumnos;
+	}
+	public void setIdiomasAlumnos(String IdiomasAlumnos) {
+		this.IdiomasAlumnos = IdiomasAlumnos;
+	}
 	
-
-
-
-	public String getSexo() {
-		return sexo;
+	
+	public String getCiudadEstudios() {
+		return ciudadEstudios;
 	}
-	public void setSexo(String sexo) {
-		this.sexo = sexo;
+	public void setCiudadEstudios(String ciudadEstudios) {
+		this.ciudadEstudios = ciudadEstudios;
 	}
+
 
 
 
 
 	private String apellido;
 	private String nombre;
-	private String sexo;
+	private String IdiomasAlumnos;
 	private String optativa;
+	private String ciudadEstudios;
 }

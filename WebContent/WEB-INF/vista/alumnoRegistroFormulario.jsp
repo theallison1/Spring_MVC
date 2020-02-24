@@ -23,13 +23,22 @@
 			<form:option value="Danza" label="Danza"/>
 			
 		</form:select>
+		<br>
+		Sexo
+		<br>
+		Ingles<form:checkbox path="idiomasAlumnos" value="ingles" />
+		Frances<form:checkbox path="idiomasAlumnos" value="frances" />
+		
 		
 		<br>
 		
-		M<form:checkbox path="sexo" value="M"/>
-		F<form:checkbox path="sexo" value="F"/>
+		Barcelona<form:radiobutton path="ciudadEstudios" value="Barcelona"/>
+		Madrid<form:radiobutton path="ciudadEstudios" value="Madrid"/>
+		Valencia<form:radiobutton path="ciudadEstudios" value="Valencia"/>
+		Bilbao<form:radiobutton path="ciudadEstudios" value="Bilbao"/>
 		
-		
+		<br>
+		<br>
 		enviar: <input type="submit" name="Enviar">
 	
 	</form:form>

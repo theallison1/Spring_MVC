@@ -13,7 +13,10 @@
 	La asignatura  escogida es : ${elAlumno.optativa}
 	<br>
 	<br>
-	el sexo de ${elAlumno.nombre} es: ${elAlumno.sexo}
+	el idioma a estudiar es :  ${elAlumno.idiomasAlumnos}
+	<br>
+	<br>
+	La ciudad de estudios elejida es ${elAlumno.ciudadEstudios }
 	
 </body>
 </html>
