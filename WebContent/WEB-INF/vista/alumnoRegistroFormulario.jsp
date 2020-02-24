@@ -14,7 +14,7 @@
 		<br><br><br>
 		Apellido: <form:input path="apellido"/>
 		<br><br><br>
-		enviar: <form:button value="Enviar"></form:button> 
+		enviar: <input type="submit" name="Enviar">
 	
 	</form:form>
 </body>
