@@ -14,6 +14,22 @@
 		<br><br><br>
 		Apellido: <form:input path="apellido"/>
 		<br><br><br>
+		
+		<form:select path="optativa" multiple="true">
+		
+			<form:option value="Diseño" label="Diseño"/>
+			<form:option value="Karate" label="Karate"/>
+			<form:option value="Comercio" label="Comercio"/>
+			<form:option value="Danza" label="Danza"/>
+			
+		</form:select>
+		
+		<br>
+		
+		M<form:checkbox path="sexo" value="M"/>
+		F<form:checkbox path="sexo" value="F"/>
+		
+		
 		enviar: <input type="submit" name="Enviar">
 	
 	</form:form>

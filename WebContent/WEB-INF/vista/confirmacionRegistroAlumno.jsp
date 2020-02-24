@@ -9,6 +9,11 @@
 <body>
 	
 	El alumno con nombre : ${elAlumno.nombre}  y apellido : ${elAlumno.apellido} se ha registrado con exito
+	<br>
+	La asignatura  escogida es : ${elAlumno.optativa}
+	<br>
+	<br>
+	el sexo de ${elAlumno.nombre} es: ${elAlumno.sexo}
 	
 </body>
 </html>
